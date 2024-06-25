@@ -4,7 +4,7 @@ Hermes (the ancient Greek god who served as a messenger and guide to the other g
 ### Functionality
 Say goodbye to spelling and grammar errors in your written content. Not only does it automatically sanitize the selected text, but it also can translate the text into a different language and measures the time saved compared to manual grammar checks. What's more, it even calculates the estimated CO2 emissions saved, making it a smart choice for both efficiency and sustainability.
 
-### Gemini API
+### Mistral Le plataforme API
 I built Hermes using Microsoft's Outlook add-in framework and Mistral Le Plataforme API. I used Python along with Flask to create an API endpoint for accessing the Mistral Le Plataforme API. For the user interface, I use HTML, and JavaScript.
 
 ### Requirements for local testing
