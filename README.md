@@ -4,12 +4,12 @@ Hermes (the ancient Greek god who served as a messenger and guide to the other g
 ### Functionality
 Say goodbye to spelling and grammar errors in your written content. Not only does it automatically sanitize the selected text, but it also can translate the text into a different language and measures the time saved compared to manual grammar checks. What's more, it even calculates the estimated CO2 emissions saved, making it a smart choice for both efficiency and sustainability.
 
-### Mistral Le plataforme API
-I built Hermes using Microsoft's Outlook add-in framework and Mistral Le Plataforme API. I used Python along with Flask to create an API endpoint for accessing the Mistral Le Plataforme API. For the user interface, I use HTML, and JavaScript.
+### Mistral La plateforme API
+I built Hermes using Microsoft's Outlook add-in framework and Mistral La plateforme API. I used Python, the mistralai modules, along with Flask to create an API endpoint for accessing the Mistral La plateforme API. For the user interface, I use HTML, and JavaScript.
 
 ### Requirements for local testing
 
-You need to run the app.py python script in order to enable the rephrase endpoint, which will call the Mistral Le Plataforme API. You also need ngrok (with a payed account) to have a secure url, if this is not in place, you will get an error when importing the manifest.xml from outlook because it does not allow to work with local non http urls, such as http://127.0.0.1:5001, you need ngrok to serv it in a secure way.
+You need to run the app.py python script in order to enable the rephrase endpoint, which will call the Mistral La plateforme API. You also need ngrok (with a payed account) to have a secure url, if this is not in place, you will get an error when importing the manifest.xml from outlook because it does not allow to work with local non http urls, such as http://127.0.0.1:5001, you need ngrok to serv it in a secure way.
 
 For ngrok go to ngrok.com, register for free, install the client using brew (mac based users), use the token (follow the basic instructions) and then running with the command from below to get the url address.
 
